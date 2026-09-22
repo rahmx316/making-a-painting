@@ -1,0 +1,84 @@
+#orange-booklet {
+    position: absolute;
+    left: 550px;
+    bottom: 110px;
+
+    width: 180px;
+    height: 250px;
+    background-color: rgb(224, 96, 10);
+}
+
+#book-top {
+    position: relative;
+    left: 540px;
+    top: 520px;
+
+    width: 180px;
+    height: 10px;
+    background: #f5dabd;
+    transform: skew(45deg);
+}
+
+#book-spine {
+    position: relative;
+    left: 532px;
+    top: 512px;
+
+    width: 10px;
+    height: 250px;
+    background: #ba541e;
+
+    transform: skewY(45deg)
+}
+
+#jug {
+    position: absolute;
+    left: 530px;
+    top:400px;
+    width: 250px;
+    height: 380px;
+
+    background-color: rgb(140, 118, 118);
+    border-radius: 0 0 80px 80px;
+    opacity: 55%;
+}
+
+#jug-inner {
+    width: 220px;
+    height: 40px;
+    background-color: rgb(77, 73, 73);
+    transform: perspective(800px);
+    border-radius: 50%;
+    margin: 0;
+
+    transform: rotateX(70deg);
+    transform-style: preserve-3d;
+
+    position: relative;
+    bottom: -20px;
+}
+
+#flower-stem{
+    position: absolute;
+    top: 200px;
+    left: 730px;
+
+    background-color: rgb(39, 84, 26);
+    width: 10px;
+    height: 550px;
+    transform: rotate(20deg);
+}
+
+#flower-petal {
+    width: 50px;
+    height: 200px;
+
+    position: absolute;
+    top: 200px;
+    left: 825px;
+    transform: skewY(30deg);
+    transform-style: preserve-3d;
+
+    background-color: rgb(249, 174, 185);
+    border-radius: 20px 20px 20px 50px;
+}
